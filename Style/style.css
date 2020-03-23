@@ -1,29 +1,57 @@
 
-#header{
-    background-image: linear-gradient(#4ca1af, #c4e0e5);
+.title{
+    ;
     font-family: 'Sen', sans-serif;
-    font-size: 14pt;
-    padding-left: 30px;
-}
-
-a.navbar-brand{
-    font-family: 'Sen', sans-serif;
-    font-size: 14pt;
+    font-size: 24pt;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 span{
    font-family: 'Permanent Marker', cursive;
-   font-size: 16pt;
+   font-size: 28pt;
 }
 
-.head-button{
-    padding-left: 65%;
+.navbar{
+   
+    list-style: none;
+    margin-top: 0%;
+    color: black;
+    margin-bottom: 0%;
 }
 
+a{
+    color: black;
+}
 
 
 /* ---------------------- */
 
 
+.hero-image-sizing{
+    width: 100%;
+    height: 400px;
+   
+    margin-top:0%;
+    border: 1pt solid black;
+}
+
+
+
+.row .col{
+    border: 1pt solid black;   
+    margin-top: 5px; 
+    height: 250px;
+    text-align: center;
+}
+
+.social{
+    float: right;
+    font-size: 12pt;
+}
 
 
