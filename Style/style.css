@@ -1,27 +1,28 @@
 
 
 
-span{
+ul .fourkids{
    font-family: 'Permanent Marker', cursive;
    font-size: 26pt;
 }
 
-.navbar{
-    background: #ff5e62;
+.navbar{  
+    background: linear-gradient( #000046, #1cb5e0);
     list-style: none;
-    margin-top: 0%;
-    color: black;
+    margin-top: -1%;
     margin-bottom: 0%;
     border-radius: 0;
+    padding-top: 9px;
 }
 
 .navbar-font{
     font-size: 12pt;
     letter-spacing: 2px;
+     
 }
 
 a{
-    color: black;
+     color: #fff;
 }
 
 
@@ -53,15 +54,30 @@ hr{
 }
 
 .col{
-    color: slategrey;
     font-size: 12pt;
-    padding-top: 4px;
-    padding-bottom: 15%;
+    padding-top: 9px;
+    padding-bottom: 9px;
     margin: 5px;
-  
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.col-wedding{
+   
+    background: linear-gradient(#40E0D0, #fdeff9)
 }
 
 
+.col-day{
+    background: linear-gradient(#FF8C00,#fdeff9);
+}
+
+.col-blues{
+    background: linear-gradient(#FF0080, #fdeff9);
+}
 /* ---------------------- */
 
 .social{
@@ -71,9 +87,25 @@ hr{
 
 
 .footer{
-background-color: navy;
+background: linear-gradient(#000046,#1cb5e0);
 color: white;
-padding-bottom: 15px;
+padding-bottom: 135px;
 margin-bottom: -5;
 padding-left: 20px;
+display: inline-block;
+width: 100%;
+text-align: center;
+padding-top: 30px;
+padding-right: 15px;
+font-size: 14pt;
+}
+
+
+.map{
+    background-image: url("Images/map.jpeg");
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    border: 2pt solid black;
+    
 }
