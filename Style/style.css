@@ -1,6 +1,6 @@
 
 .title{
-    ;
+    background: linear-gradient(#ff9966, #ff5e62);
     font-family: 'Sen', sans-serif;
     font-size: 24pt;
     font-weight: 900;
@@ -17,11 +17,17 @@ span{
 }
 
 .navbar{
-   
+    background: #ff5e62;
     list-style: none;
     margin-top: 0%;
     color: black;
     margin-bottom: 0%;
+    border-radius: 0;
+}
+
+.navbar-font{
+    font-size: 18pt;
+    letter-spacing: 2px;
 }
 
 a{
@@ -32,13 +38,17 @@ a{
 /* ---------------------- */
 
 
-.hero-image-sizing{
-    width: 100%;
+.logo{
+    background-image: url("Images/logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 400px;
-   
-    margin-top:0%;
-    border: 1pt solid black;
+    width: 100%;
+    background-position: center;
 }
+
+
+
 
 
 
@@ -53,5 +63,6 @@ a{
     float: right;
     font-size: 12pt;
 }
+
 
 
