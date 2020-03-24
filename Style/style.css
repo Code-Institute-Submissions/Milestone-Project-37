@@ -1,19 +1,9 @@
 
-.title{
-    background: linear-gradient(#ff9966, #ff5e62);
-    font-family: 'Sen', sans-serif;
-    font-size: 24pt;
-    font-weight: 900;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
+
 
 span{
    font-family: 'Permanent Marker', cursive;
-   font-size: 28pt;
+   font-size: 26pt;
 }
 
 .navbar{
@@ -26,7 +16,7 @@ span{
 }
 
 .navbar-font{
-    font-size: 18pt;
+    font-size: 12pt;
     letter-spacing: 2px;
 }
 
@@ -42,22 +32,37 @@ a{
     background-image: url("Images/logo.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 390px;
     width: 100%;
     background-position: center;
+    margin-bottom: 45px;
+}
+
+hr{
+    width: 80%;
+    border-top: 3px solid grey;
+    margin-top: 20px;
 }
 
 
+/* ---------------------- */
 
-
-
-
-.row .col{
-    border: 1pt solid black;   
-    margin-top: 5px; 
-    height: 250px;
+.col-font{
+    font-weight: 500;
     text-align: center;
 }
+
+.col{
+    color: slategrey;
+    font-size: 12pt;
+    padding-top: 4px;
+    padding-bottom: 15%;
+    margin: 5px;
+  
+}
+
+
+/* ---------------------- */
 
 .social{
     float: right;
@@ -65,4 +70,10 @@ a{
 }
 
 
-
+.footer{
+background-color: navy;
+color: white;
+padding-bottom: 15px;
+margin-bottom: -5;
+padding-left: 20px;
+}
