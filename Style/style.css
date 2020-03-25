@@ -10,33 +10,42 @@ ul .fourkids{
     background: linear-gradient( #000046, #1cb5e0);
     list-style: none;
     margin-top: -1%;
-    margin-bottom: 0%;
+    margin-bottom: 1%;
     border-radius: 0;
-    padding-top: 9px;
+    padding-top: 15px;
 }
 
 .navbar-font{
     font-size: 12pt;
     letter-spacing: 2px;
-     
 }
 
 a{
      color: #fff;
 }
 
+.about{
+    padding-top: 12px;
+}
+
+.approach{
+    padding-top: 12px;
+}
+
+.ability{
+    padding-top: 12px;
+}
 
 /* ---------------------- */
-
 
 .logo{
     background-image: url("Images/logo.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 390px;
+    height: 300px;
     width: 100%;
     background-position: center;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 hr{
@@ -68,12 +77,10 @@ hr{
 
 h2{
     text-align: center;
-    padding-bottom: 15px;
 }
 
 .col-wedding{
-   
-    background: linear-gradient(#40E0D0, #fdeff9)
+    background: linear-gradient(#40E0D0, #fdeff9);
 }
 
 
@@ -89,38 +96,42 @@ h2{
 .footer{
 background: linear-gradient(#000046,#1cb5e0);
 color: white;
-padding-bottom: 30px;
-margin-bottom: -5;
-padding-left: 20px;
-display: inline-block;
-width: 100%;
-
+padding-bottom: 20px;
+margin-bottom: -2%;
 font-size: 14pt;
+width: 100%;
+padding-top: 15px;
+margin: 0 auto;
 }
 
-
-.contact{
-    padding-top: 10px;
-    border: 3pt solid red;
-    width: 30%;
+/*
+.container{
+    float: left;
+}
+*/
+.contact-details{
+    padding-left: 12px;
+    list-style: none;
+    border: 2pt solid red;
 }
 
+.row-contact{
+    width: 100%;
+}
 
 .map{
     background-image: url("Images/map.jpeg");
-    height: 210px;
-    width: 180px;
+    height: 150px;
     background-size: contain;
     border: 2pt solid black;
     margin: auto;
-    border: 3pt solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .social{
-    text-align: right;
+    margin-right: 9px;
     font-size: 12pt;
-    padding-right: 15px;
     border: 3pt solid red;
-    width: 27%;
-    float:right;
+    
 }
