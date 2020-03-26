@@ -1,9 +1,23 @@
 
-
+body{
+    font-family: 'Butterfly Kids', cursive;
+}
 
 ul .fourkids{
-   font-family: 'Permanent Marker', cursive;
-   font-size: 26pt;
+   font-family: 'Butterfly Kids', cursive;
+   font-size: 32pt;
+   color:white;
+   padding-left: 3pt;
+   text-shadow: 2px 2px black;
+}
+
+.company-name{
+    font-weight: 400;
+    font-size: 18pt;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: -0.5pt;
+    color: #262a2d;
+    text-shadow: 2px 2px grey;
 }
 
 .navbar{  
@@ -12,12 +26,12 @@ ul .fourkids{
     margin-top: -1%;
     margin-bottom: 1%;
     border-radius: 0;
-    padding-top: 15px;
+    padding-top: 3px;
 }
 
 .navbar-font{
-    font-size: 12pt;
-    letter-spacing: 2px;
+    font-size: 14pt;
+    letter-spacing: 1px;
 }
 
 a{
@@ -26,14 +40,17 @@ a{
 
 .about{
     padding-top: 12px;
+    font-size: 18pt;
 }
 
 .approach{
     padding-top: 12px;
+    font-size: 18pt;
 }
 
 .ability{
     padding-top: 12px;
+    font-size: 18pt;
 }
 
 /* ---------------------- */
@@ -42,7 +59,7 @@ a{
     background-image: url("Images/logo.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 390px;
     width: 100%;
     background-position: center;
     margin-bottom: 25px;
@@ -60,8 +77,8 @@ hr{
 .row{
     width: 67%;
     margin: auto;
+   
 }
-
 
 .col-font{
     font-weight: 500;
@@ -70,38 +87,68 @@ hr{
 
 .col{
     font-size: 12pt;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin: 5px;
-}
-
-h2{
-    text-align: center;
+    padding: 30px;
+    margin: 9px;
 }
 
 .col-wedding{
     background: linear-gradient(#40E0D0, #fdeff9);
+     font-family: 'Butterfly Kids', cursive;
+     font-size: 24pt;
 }
-
 
 .col-day{
     background: linear-gradient(#FF8C00,#fdeff9);
+     font-family: 'Butterfly Kids', cursive;
+     font-size: 24pt;
 }
 
 .col-blues{
     background: linear-gradient(#FF0080, #fdeff9);
+     font-family: 'Butterfly Kids', cursive;
+     font-size: 24pt;
 }
+
+.dark{
+    background-color: black;
+    border:none;
+    height: 2px;
+    width: 67%;
+}
+
+.dark-medium{
+    background-color: black;
+    border:none;
+    height: 2px;
+    width: 67%;
+}
+
+.short{
+    width: 33%;
+    background-color: black;
+    border:none;
+    height: 2px;
+}
+
+
+h2{
+    font-family: 'Butterfly Kids', cursive;
+    font-size: 30pt;
+    text-align: center;
+}
+
+
 /* ---------------------- */
 
 .footer{
-background: linear-gradient(#000046,#1cb5e0);
+background:#000046;
 color: white;
-padding-bottom: 20px;
+padding-bottom: 3px;
 margin-bottom: -2%;
-font-size: 14pt;
+font-size: 12pt;
 width: 100%;
-padding-top: 15px;
-margin: 0 auto;
+padding-top: 9px;
+text-align: center;
 }
 
 /*
@@ -112,7 +159,6 @@ margin: 0 auto;
 .contact-details{
     padding-left: 12px;
     list-style: none;
-    border: 2pt solid red;
 }
 
 .row-contact{
@@ -121,17 +167,22 @@ margin: 0 auto;
 
 .map{
     background-image: url("Images/map.jpeg");
-    height: 150px;
-    background-size: contain;
+    height: 127px;
     border: 2pt solid black;
-    margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .social{
-    margin-right: 9px;
     font-size: 12pt;
     border: 3pt solid red;
-    
+}
+
+.days-of-week{
+    list-style: none;
+    text-align: right;
+    font-size: 12pt;
+    word-spacing: 3pt;
+    padding-left: 45px;
 }
