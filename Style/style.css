@@ -1,7 +1,4 @@
 
-body{
-    font-family: 'Butterfly Kids', cursive;
-}
 
 ul .fourkids{
    font-family: 'Butterfly Kids', cursive;
@@ -12,12 +9,13 @@ ul .fourkids{
 }
 
 .company-name{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18pt;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Space Mono', monospace;
     letter-spacing: -0.5pt;
-    color: #262a2d;
-    text-shadow: 2px 2px grey;
+    color: #fff;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1.5pt;
 }
 
 .navbar{  
@@ -26,12 +24,7 @@ ul .fourkids{
     margin-top: -1%;
     margin-bottom: 1%;
     border-radius: 0;
-    padding-top: 3px;
-}
-
-.navbar-font{
-    font-size: 14pt;
-    letter-spacing: 1px;
+    padding-top: 3px;   
 }
 
 a{
@@ -39,18 +32,27 @@ a{
 }
 
 .about{
-    padding-top: 12px;
-    font-size: 18pt;
+    padding-top: 24px;
+    font-size: 15pt;
+    font-family:'Space Mono', monospace;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1pt;
 }
 
 .approach{
-    padding-top: 12px;
-    font-size: 18pt;
+    padding-top: 24px;
+    font-size: 15pt;
+    font-family:'Space Mono', monospace;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1pt;
 }
 
 .ability{
-    padding-top: 12px;
-    font-size: 18pt;
+     padding-top: 24px;
+    font-size: 15pt;
+    font-family:'Space Mono', monospace;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1pt;
 }
 
 /* ---------------------- */
@@ -65,14 +67,13 @@ a{
     margin-bottom: 25px;
 }
 
-hr{
-    width: 80%;
-    border-top: 3px solid grey;
-    margin-top: 20px;
-}
+
 
 
 /* ---------------------- */
+
+
+
 
 .row{
     width: 67%;
@@ -114,6 +115,7 @@ hr{
     border:none;
     height: 2px;
     width: 67%;
+    margin-top: 45px;
 }
 
 .dark-medium{
@@ -124,7 +126,7 @@ hr{
 }
 
 .short{
-    width: 33%;
+    width: 67%;
     background-color: black;
     border:none;
     height: 2px;
@@ -132,23 +134,28 @@ hr{
 
 
 h2{
-    font-family: 'Butterfly Kids', cursive;
-    font-size: 30pt;
-    text-align: center;
+    font-size: 24pt;
+    font-family:'Space Mono', monospace;
+    letter-spacing: 1.5pt;
+    font-weight: 700;
 }
+
+
 
 
 /* ---------------------- */
 
 .footer{
-background:#000046;
+background:linear-gradient( #1cb5e0, #000046);
 color: white;
-padding-bottom: 3px;
 margin-bottom: -2%;
 font-size: 12pt;
 width: 100%;
 padding-top: 9px;
 text-align: center;
+font-family: 'Space Mono', monospace;
+text-shadow: 2px 2px black;
+border-top: 1pt solid black;
 }
 
 /*
