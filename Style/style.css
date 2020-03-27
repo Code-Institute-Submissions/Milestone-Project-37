@@ -1,11 +1,12 @@
 
 
+
 ul .fourkids{
    font-family: 'Butterfly Kids', cursive;
    font-size: 32pt;
-   color:white;
+   color:black;
    padding-left: 3pt;
-   text-shadow: 2px 2px black;
+   
 }
 
 .company-name{
@@ -13,13 +14,12 @@ ul .fourkids{
     font-size: 18pt;
     font-family: 'Space Mono', monospace;
     letter-spacing: -0.5pt;
-    color: #fff;
-    text-shadow: 2px 2px black;
+    color: black;
     letter-spacing: 1.5pt;
 }
 
 .navbar{  
-    background: linear-gradient( #000046, #1cb5e0);
+    background: #b3cdd3;
     list-style: none;
     margin-top: -1%;
     margin-bottom: 1%;
@@ -28,14 +28,14 @@ ul .fourkids{
 }
 
 a{
-     color: #fff;
+     color:black;
 }
 
 .about{
     padding-top: 24px;
     font-size: 15pt;
     font-family:'Space Mono', monospace;
-    text-shadow: 2px 2px black;
+    color: black;
     letter-spacing: 1pt;
 }
 
@@ -43,15 +43,13 @@ a{
     padding-top: 24px;
     font-size: 15pt;
     font-family:'Space Mono', monospace;
-    text-shadow: 2px 2px black;
     letter-spacing: 1pt;
 }
 
 .awards{
-     padding-top: 24px;
+    padding-top: 24px;
     font-size: 15pt;
     font-family:'Space Mono', monospace;
-    text-shadow: 2px 2px black;
     letter-spacing: 1pt;
 }
 
@@ -93,19 +91,19 @@ a{
 }
 
 .col-wedding{
-    background: linear-gradient(#40E0D0, #fdeff9);
+    background:#e0da59;
      font-family: 'Butterfly Kids', cursive;
      font-size: 24pt;
 }
 
 .col-day{
-    background: linear-gradient(#FF8C00,#fdeff9);
+    background-color: #679ca7;
      font-family: 'Butterfly Kids', cursive;
      font-size: 24pt;
 }
 
 .col-blues{
-    background: linear-gradient(#FF0080, #fdeff9);
+    background: #d48e7a;
      font-family: 'Butterfly Kids', cursive;
      font-size: 24pt;
 }
@@ -147,16 +145,14 @@ a{
 /* ---------------------- */
 
 .footer{
-background:linear-gradient( #1cb5e0, #000046);
-color: white;
+background-color: #b3cdd3;
+color: black;
 margin-bottom: -2%;
 font-size: 12pt;
 width: 100%;
 padding-top: 9px;
 text-align: center;
 font-family: 'Space Mono', monospace;
-text-shadow: 2px 2px black;
-border-top: 1pt solid black;
 padding-bottom: 15px;
 }
 
