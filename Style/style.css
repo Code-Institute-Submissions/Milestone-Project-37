@@ -5,14 +5,13 @@ ul .fourkids{
    font-family: 'Butterfly Kids', cursive;
    font-size: 32pt;
    color:black;
-   padding-left: 3pt;
-   
+   padding-left: 3pt;  
 }
 
 .company-name{
     font-weight: 300;
     font-size: 18pt;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Sen', sans-serif;
     letter-spacing: -0.5pt;
     color: black;
     letter-spacing: 1.5pt;
@@ -34,23 +33,24 @@ a{
 .about{
     padding-top: 24px;
     font-size: 15pt;
-    font-family:'Space Mono', monospace;
+    font-family: 'Sen', sans-serif;
     color: black;
-    letter-spacing: 1pt;
+    letter-spacing: 2pt;
+    word-spacing: 2pt;
 }
 
 .approach{
     padding-top: 24px;
     font-size: 15pt;
-    font-family:'Space Mono', monospace;
-    letter-spacing: 1pt;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 2.5pt;
 }
 
 .awards{
     padding-top: 24px;
     font-size: 15pt;
-    font-family:'Space Mono', monospace;
-    letter-spacing: 1pt;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 2pt;
 }
 
 /* ---------------------- */
@@ -92,20 +92,20 @@ a{
 
 .col-wedding{
     background:#e0da59;
-     font-family: 'Butterfly Kids', cursive;
-     font-size: 24pt;
+    font-family: 'Sen', sans-serif;
+    font-size: 24pt;
 }
 
 .col-day{
     background-color: #679ca7;
-     font-family: 'Butterfly Kids', cursive;
-     font-size: 24pt;
+    font-family: 'Sen', sans-serif;
+    font-size: 24pt;
 }
 
 .col-blues{
     background: #d48e7a;
-     font-family: 'Butterfly Kids', cursive;
-     font-size: 24pt;
+    font-family: 'Sen', sans-serif;
+    font-size: 24pt;
 }
 
 .dark{
@@ -133,7 +133,7 @@ a{
 
 .learning{
     font-size: 24pt;
-    font-family:'Space Mono', monospace;
+    font-family: 'Sen', sans-serif;
     letter-spacing: 1.5pt;
     font-weight: 700;
     text-align: center;
@@ -152,8 +152,8 @@ font-size: 12pt;
 width: 100%;
 padding-top: 9px;
 text-align: center;
-font-family: 'Space Mono', monospace;
-padding-bottom: 15px;
+font-family: 'Sen', sans-serif;
+padding-bottom: 25px;
 }
 
 .contact-details{
