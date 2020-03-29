@@ -66,17 +66,12 @@ a{
 }
 
 
-
-
 /* ---------------------- */
-
-
 
 
 .row{
     width: 67%;
     margin: auto;
-   
 }
 
 .col-font{
@@ -86,8 +81,8 @@ a{
 
 .col{
     font-size: 12pt;
-    padding: 30px;
-    margin: 9px;
+    padding: 6px;
+    margin: 3px;
 }
 
 .col-wedding{
@@ -108,19 +103,18 @@ a{
     font-size: 24pt;
 }
 
+
+
+
+/* ---------------------- */
+
+
 .dark{
     background-color: black;
     border:none;
-    height: 2px;
-    width: 67%;
-    margin-top: 45px;
-}
-
-.dark-medium{
-    background-color: black;
-    border:none;
-    height: 2px;
-    width: 67%;
+    height: 1.5pt;
+    width: 65%;
+    margin-top: 0;
 }
 
 .short{
@@ -129,7 +123,6 @@ a{
     border:none;
     height: 2px;
 }
-
 
 .learning{
     font-size: 24pt;
@@ -159,12 +152,12 @@ padding-bottom: 25px;
 .contact-details{
     padding-left: 12px;
     list-style: none;
+    width: 67%;
 }
 
 .row-contact{
     width: 100%;
 }
-
 
 .social{
     font-size: 12pt;
@@ -180,25 +173,29 @@ padding-bottom: 25px;
 .container-fluid{
     width: 100%;
     display: inline-block;
+    margin: 0 auto;
 }
 
 .row, .row-awards{
-    width: 90%;
+    width: 67%;
     margin-top: 0;
 }
 
-.col-curriculum{
+
+.about-text{
+    text-align: center;
+}
+
+
+.container-fluid, .explore{
+    text-align: center;
+    font-family: 'Sen', sans-serif;
   
-}
-
-.col-confidence{
-   
+    margin-top: -3px;
 }
 
 
-.hr-red{
-    background-color: red;
-    border:none;
-    height: 2px;
-    width: 67%;
+.row-explore, .row, .col{
+    margin-top: -3px;
+    padding-bottom: 24px;
 }
