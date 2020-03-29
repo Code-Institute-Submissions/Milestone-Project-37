@@ -176,43 +176,21 @@ padding-bottom: 25px;
 
 /* ---------------------- */
 
-.about-visual{
-    width: 100%;
-    height: 480px;
-}
-
-.approach-visual{
-    width: 100%;
-    height: 480px;
-}
-
-.awards-visual{
-    width: 100%;
-    height: 480px;
-}
-
-.row-awards{
-    width: 100%;
-
-}
-
 
 .container-fluid{
     width: 100%;
-    margin: 0 auto;
+    display: inline-block;
+}
+
+.row, .row-awards{
+    width: 90%;
+    margin-top: 0;
 }
 
 .col-curriculum{
-    background: blue;
-    padding-bottom: 210px;
-}
-
-.col-skillset{
-    background: yellow;
-    padding-bottom: 210px;
+  
 }
 
 .col-confidence{
-    background: green;
-    padding-bottom: 210px;
+   
 }
