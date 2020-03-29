@@ -194,3 +194,11 @@ padding-bottom: 25px;
 .col-confidence{
    
 }
+
+
+.hr-red{
+    background-color: red;
+    border:none;
+    height: 2px;
+    width: 67%;
+}
