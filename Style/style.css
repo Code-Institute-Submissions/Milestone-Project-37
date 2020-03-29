@@ -192,26 +192,27 @@ padding-bottom: 25px;
 }
 
 .row-awards{
-    margin: 0 auto;
-    border: 2pt solid red;
-    text-align: center;
-    width: 90%;
-    height: 480px;
+    width: 100%;
+
 }
 
-.container-approach, .container-about, .container-awards{
-    width: 90%;
-}
 
 .container-fluid{
     width: 100%;
     margin: 0 auto;
 }
 
-.circle {
-  height: 210px;
-  width: 210px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
+.col-curriculum{
+    background: blue;
+    padding-bottom: 210px;
+}
+
+.col-skillset{
+    background: yellow;
+    padding-bottom: 210px;
+}
+
+.col-confidence{
+    background: green;
+    padding-bottom: 210px;
 }
