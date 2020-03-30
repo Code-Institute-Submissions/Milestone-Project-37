@@ -180,8 +180,8 @@ a:hover{
     background-color: #b3cdd3;
     margin-bottom: -2%;
     width: 100%;
-    padding-top: 9px;
-    padding-bottom: 21px;
+    padding-top: 27px;
+    padding-bottom: 27px;
     padding-left: 9px;
 }
 
@@ -248,4 +248,13 @@ a:hover{
 
 .retweet{
     color: black;
+}
+
+.fa-map-signs, .fa-tools, .fa-retweet, .fa-calculator, .fa-laptop-code{
+    padding-top: 6px;
+}
+
+
+.row .learn-logos{
+    margin: 0 auto;
 }
