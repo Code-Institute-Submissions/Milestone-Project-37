@@ -63,12 +63,21 @@ a:hover{
     background-image: url("Images/logo.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 390px;
-    width: 100%;
-    background-position: center;
-    margin-bottom: 25px;
+    height: 330px;
+    width: 90%;
+    background-position: right;
+    padding-right: 45px;
+    padding-top: 15px;
+    margin: 0 auto;
 }
 
+
+.intro-text{
+    padding-left: 45px;
+    font-size: 14pt;
+  
+   
+}
 
 /* ---------------------- */
 
@@ -76,6 +85,7 @@ a:hover{
 .row{
     width: 67%;
     margin: auto;
+    padding-top: 12px;
 }
 
 .col-font{
@@ -111,6 +121,7 @@ a:hover{
 .number-evidence{
     font-weight: 700;
     font-style: italic;
+    margin-top: 0;
 }
 
 
@@ -122,8 +133,6 @@ a:hover{
     border:none;
     height: 1.5pt;
     width: 67%;
-    margin-top: 0;
-    
 }
 
 .learn-logos{
@@ -215,8 +224,9 @@ a:hover{
 
 
 .row-explore, .row, .col{
-    margin-top: -3px;
-    padding-bottom: 24px;
+    margin-top: -12px;
+    margin-bottom: -3px;
+    padding-bottom: 18px;
 }
 
 .explore{
@@ -228,7 +238,23 @@ a:hover{
     text-align: center;
     padding-top: 6px;
     padding-bottom: 12px;
-    word-spacing: 210pt;
+    word-spacing: 270pt;
 }
 
 
+.fa-book, .fa-map-signs{
+    color: #e0da59;
+}
+
+.fa-tools, .fa-retweet{
+    color: #679ca7;
+}
+
+
+.fa-laptop-code, .fa-calculator{
+    color: #d48e7a;
+}
+
+.retweet{
+    color: black;
+}
