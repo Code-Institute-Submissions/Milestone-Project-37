@@ -1,5 +1,5 @@
 
-
+/* --------- navbar and logo      ------------- */
 
 ul .fourkids{
    font-family: 'Butterfly Kids', cursive;
@@ -26,6 +26,8 @@ ul .fourkids{
     padding-top: 3px;   
 }
 
+/* ----------  Whole website aspects  ------------ */
+
 a{
      color:black;
 }
@@ -33,6 +35,13 @@ a{
 a:hover{
     color: red;
 }
+
+.intro-text{
+    padding-left: 45px;
+    font-size: 14pt;
+}
+
+/* --------  About Approach and Awards styling fonts       -------------- */
 
 .about{
     padding-top: 24px;
@@ -57,7 +66,7 @@ a:hover{
     letter-spacing: 2pt;
 }
 
-/* ---------------------- */
+/* ---------  Images and logos   ------------- */
 
 .logo{
     background-image: url("Images/logo.jpeg");
@@ -71,16 +80,19 @@ a:hover{
     margin: 0 auto;
 }
 
-
-.intro-text{
-    padding-left: 45px;
-    font-size: 14pt;
-  
-   
+.learn-logos{
+    text-align: center;
+    padding-bottom: 12px;
+    word-spacing: 6pt;
 }
 
-/* ---------------------- */
+.number-evidence{
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 0;
+}
 
+/* --------  row and columns -------------- */
 
 .row{
     width: 67%;
@@ -98,6 +110,8 @@ a:hover{
     padding: 6px;
     margin: 3px;
 }
+
+/*------------- Understanding Problem Solving and Thinking column styling  --------------- */
 
 .col-wedding{
     background-image: linear-gradient( 150deg, #e0da59, #fff);
@@ -118,15 +132,25 @@ a:hover{
     font-size: 24pt;
 }
 
-.number-evidence{
-    font-weight: 700;
-    font-style: italic;
+.container-fluid{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.row, .row-awards{
+    width: 67%;
     margin-top: 0;
 }
 
+/* --------   hr lines -------------- */
 
-/* ---------------------- */
-
+.short{
+    width: 67%;
+    background-color: black;
+    border:none;
+    height: 2px;
+}
 
 .dark{
     background-color: black;
@@ -135,19 +159,7 @@ a:hover{
     width: 67%;
 }
 
-.learn-logos{
-    text-align: center;
-    padding-bottom: 12px;
-    word-spacing: 6pt;
-}
-
-
-.short{
-    width: 67%;
-    background-color: black;
-    border:none;
-    height: 2px;
-}
+/*-----------  fonts and titles ----------------- */
 
 .learning{
     font-size: 24pt;
@@ -157,10 +169,7 @@ a:hover{
     text-align: center;
 }
 
-
-
-
-/* ---------------------- */
+/* --------- footer ------------- */
 
 .footer{
     font-size: 12pt;
@@ -197,31 +206,12 @@ a:hover{
 }
 
 
-/* ---------------------- */
-
-
-.container-fluid{
-    width: 100%;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.row, .row-awards{
-    width: 67%;
-    margin-top: 0;
-}
-
-
-.about-text{
-    text-align: center;
-}
-
+/* ---------  Explore with us sections menu ------------- */
 
 .container-fluid, .explore{
     font-family: 'Sen', sans-serif;
     margin-top: -3px;
 }
-
 
 .row-explore, .row, .col{
     margin-top: -12px;
@@ -241,6 +231,7 @@ a:hover{
     word-spacing: 270pt;
 }
 
+/*---------- font awesome styling ---------*/
 
 .fa-book, .fa-map-signs{
     color: #e0da59;
