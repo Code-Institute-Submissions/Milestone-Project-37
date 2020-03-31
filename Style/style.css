@@ -41,6 +41,14 @@ a:hover{
     font-size: 14pt;
 }
 
+/* --------  review font size and points of emphasis     -------------- */
+.intro-text, .col{
+    font-family: 'Sen', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    word-spacing: 2pt;
+}
+
 /* --------  About Approach and Awards styling fonts       -------------- */
 
 .about{
