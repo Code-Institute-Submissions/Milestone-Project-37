@@ -63,6 +63,14 @@ a:hover{
     font-size: 14pt;
 }
 
+
+
+.learn-logos{
+    text-align: center;
+    padding-bottom: 12px;
+    word-spacing: 6pt;
+}
+
 /* --------  review font size and points of emphasis     -------------- */
 .intro-text, .col{
     font-family: 'Sen', sans-serif;
@@ -115,7 +123,7 @@ div .logo-understanding{
     background-repeat: no-repeat;
     background-position: center;
     min-width: 100%;
-    min-height: 270px;
+    min-height: 360px;
     margin: 0;
 }
 
@@ -125,7 +133,7 @@ div .logo-problemsolving{
     background-repeat: no-repeat;
     background-position: center;
     min-width: 100%;
-    min-height: 270px;
+    min-height: 360px;
     margin: 0;
 }
 
@@ -135,11 +143,9 @@ div .logo-thinking{
     background-repeat: no-repeat;
     background-position: center;
     min-width: 100%;
-    min-height: 270px;
+    min-height: 360px;
     margin: 0;
-
-
-
+}
 
 
 .number-evidence{
@@ -176,7 +182,6 @@ div .logo-thinking{
 }
 
 .col-day{
-    
     background-image: linear-gradient(#679ca7, #fff);
     font-family: 'Sen', sans-serif;
     font-size: 24pt;
@@ -256,7 +261,7 @@ div .logo-thinking{
 /* --------- footer ------------- */
 
 .footer{
-    font-size: 12pt;
+    font-size: 16pt;
     font-family: 'Sen', sans-serif;
     color: black;
     letter-spacing: 2pt;
@@ -267,6 +272,7 @@ div .logo-thinking{
     padding-top: 27px;
     padding-bottom: 27px;
     padding-left: 9px;
+    text-align: center;
 }
 
 .contact-details{
@@ -284,10 +290,7 @@ div .logo-thinking{
     border: 3pt solid red;
 }
 
-.menu-footer{
-    float:right;
-    padding-right: 12px;
-}
+
 
 
 /* ---------  Explore with us sections menu ------------- */
@@ -344,8 +347,25 @@ div .logo-thinking{
 }
 
 
-.row, .fa-circle{
+.row, .fa-award, .fa-calendar-alt, .fa-city, .fa-envelope{
     text-align: center;
-    margin-top: 18px;
+    margin-top: 9px;
     margin-bottom: 18px;
+}
+
+/*---------- form ---------*/
+
+form, .form-group .container-fluid{
+    width: 67%;
+    margin: 0 auto;
+}
+
+
+.btn, .btn-success{
+    margin-left: 48%;
+    margin-top: 12px;
+    padding: 12px;
+    border: 1pt solid black;
+    color: white;
+    background: linear-gradient(green, darkgreen);
 }
