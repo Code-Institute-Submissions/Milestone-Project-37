@@ -41,6 +41,13 @@ a:hover{
     font-size: 14pt;
 }
 
+#understanding, .understanding-text{
+    text-align: center;
+    width: 67%;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
 /* --------  review font size and points of emphasis     -------------- */
 .intro-text, .col{
     font-family: 'Sen', sans-serif;
@@ -91,9 +98,10 @@ div .logo-understanding{
     background-image: url("Images/understanding.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 390px;
+    min-height: 420px;
     min-width: 100%;
     background-position: center;
+    
 }
 
 .learn-logos{
