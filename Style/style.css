@@ -86,6 +86,16 @@ a:hover{
     padding-left: 60px;
     padding-top: 15px;
 }
+/* -----adjust min height and max height for viewing  ---*/
+.logo-understanding{
+    background-image: url("Images/understanding.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 390px;
+    min-width: 100%;
+    padding-left: 60px;
+ 
+}
 
 .learn-logos{
     text-align: center;
