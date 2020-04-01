@@ -81,11 +81,10 @@ a:hover{
     background-size: contain;
     background-repeat: no-repeat;
     height: 330px;
-    width: 90%;
-    background-position: right;
-    padding-right: 45px;
+    width: 99%;
+    background-position: center;
+    padding-left: 60px;
     padding-top: 15px;
-    margin: 0 auto;
 }
 
 .learn-logos{
@@ -177,6 +176,34 @@ a:hover{
     text-align: center;
 }
 
+/*----------- paragraph indents ----------------- */
+
+.tab1{
+    text-align: center;
+    font-size: 14pt;
+}
+
+.tab2{
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.tab3{
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.tab4{
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 24%;
+    font-size: 14pt;
+}
+
 /* --------- footer ------------- */
 
 .footer{
@@ -265,4 +292,11 @@ a:hover{
 
 .row .learn-logos{
     margin: 0 auto;
+}
+
+
+.row, .fa-circle{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
