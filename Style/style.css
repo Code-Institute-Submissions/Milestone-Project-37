@@ -37,13 +37,21 @@ a:hover{
 }
 
 .intro-text{
-    padding-left: 45px;
+    padding-left: 39px;
     font-size: 14pt;
+    width: 100%;
 }
 
 .understanding, .understanding-text{
     text-align: center;
-    width: 67%;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
+.problemsolving, .problemsolving-text{
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
     font-size: 14pt;
 }
@@ -95,14 +103,26 @@ a:hover{
 }
 /* -----adjust min height and max height for viewing on mobile ---*/
 div .logo-understanding{
-    background-image: url("Images/understanding.jpeg");
-    background-size: cover;
+    background-image: url("Images/understandinglg.jpeg");
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 420px;
-    width: 390px;;
     background-position: center;
-    
+    min-width: 100%;
+    min-height: 270px;
+    margin: 0;
 }
+
+div .logo-problemsolving{
+    background-image: url("Images/problemsolving.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    min-height: 270px;
+    margin: 0;
+}
+
+
 
 .learn-logos{
     text-align: center;
@@ -216,8 +236,8 @@ div .logo-understanding{
 
 .tab4{
     text-align: center;
-    margin-left: 24%;
-    margin-right: 24%;
+    margin-left: 21%;
+    margin-right: 21%;
     font-size: 14pt;
 }
 
