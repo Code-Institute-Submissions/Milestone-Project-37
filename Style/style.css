@@ -56,6 +56,13 @@ a:hover{
     font-size: 14pt;
 }
 
+.thinking, .thinking-text{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
 /* --------  review font size and points of emphasis     -------------- */
 .intro-text, .col{
     font-family: 'Sen', sans-serif;
@@ -122,13 +129,18 @@ div .logo-problemsolving{
     margin: 0;
 }
 
+div .logo-thinking{
+    background-image: url("Images/thinking.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    min-height: 270px;
+    margin: 0;
 
 
-.learn-logos{
-    text-align: center;
-    padding-bottom: 12px;
-    word-spacing: 6pt;
-}
+
+
 
 .number-evidence{
     font-weight: 700;
