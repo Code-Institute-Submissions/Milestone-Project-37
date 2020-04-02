@@ -2,10 +2,14 @@
 
 `python3 -m http.server`
 
-Your Project's Name
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+Lifeskills Learning 4 Kids
+My project is a website for a children's tutoring company, with a focus on teaching lifeskills.
+With such an increasing focus on exams and academics in schools (starting as early as Nursery for many), children
+are missing out on those essential day to day skills to get them through life.  E.g, following a set of instructions to 
+make a piece of IKEA furnitiure.  We teach you to complete such daily activities by UNDERSTANDING what needs to be done, 
+PROBLEM SOLVING by using a range of strategies and drawing upon experiences and THINKING skills.  
+The company website is designed to give an insight into its aims, principles behind its approach and give some examples
+of daily lifeskills within each of the aforementioned areas.  
 
 UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
