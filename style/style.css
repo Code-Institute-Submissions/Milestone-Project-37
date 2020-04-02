@@ -1,0 +1,372 @@
+
+/* --------- navbar and logo      ------------- */
+
+ul .fourkids{
+   font-family: 'Butterfly Kids', cursive;
+   font-size: 32pt;
+   color:black;
+   padding-left: 3pt;  
+}
+
+.company-name{
+    font-weight: 300;
+    font-size: 18pt;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: -0.5pt;
+    color: black;
+    letter-spacing: 1.5pt;
+}
+
+.navbar{  
+    background: #b3cdd3;
+    list-style: none;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    border-radius: 0;
+    padding-top: 3px;  
+}
+
+/* ----------  Whole website aspects  ------------ */
+
+a{
+     color:black;
+}
+
+a:hover{
+    color: red;
+}
+
+.intro-text{
+    padding-left: 39px;
+    font-size: 14pt;
+    width: 100%;
+}
+
+.understanding, .understanding-text{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
+.problemsolving, .problemsolving-text{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
+.thinking, .thinking-text{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
+
+
+.learn-logos{
+    text-align: center;
+    padding-bottom: 12px;
+    word-spacing: 6pt;
+}
+
+/* --------  review font size and points of emphasis     -------------- */
+.intro-text, .col{
+    font-family: 'Sen', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    word-spacing: 2pt;
+}
+
+/* --------  About Approach and Awards styling fonts       -------------- */
+
+.about{
+    padding-top: 24px;
+    font-size: 15pt;
+    font-family: 'Sen', sans-serif;
+    color: black;
+    letter-spacing: 2pt;
+    word-spacing: 2pt;
+}
+
+.approach{
+    padding-top: 24px;
+    font-size: 15pt;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 2.5pt;
+}
+
+.awards{
+    padding-top: 24px;
+    font-size: 15pt;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 2pt;
+}
+
+/* ---------  Images and logos   ------------- */
+
+.logo{
+    background-image: url("images/logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 360px;
+    min-width: 99%;
+    background-position: center;
+    
+}
+/* -----adjust min height and max height for viewing on mobile ---*/
+div .logo-understanding{
+    background-image: url("images/understandinglg.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    min-height: 360px;
+    margin: 0;
+}
+
+div .logo-problemsolving{
+    background-image: url("images/problemsolving.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    min-height: 360px;
+    margin: 0;
+}
+
+div .logo-thinking{
+    background-image: url("images/thinking.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    min-height: 360px;
+    margin: 0;
+}
+
+
+.number-evidence{
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 0;
+}
+
+/* --------  row and columns -------------- */
+
+.row{
+    width: 67%;
+    margin: auto;
+    padding-top: 12px;
+}
+
+.col-font{
+    font-weight: 500;
+    text-align: center;
+}
+
+.col{
+    font-size: 12pt;
+    padding: 6px;
+    margin: 3px;
+}
+
+/*------------- Understanding Problem Solving and Thinking column styling  --------------- */
+
+.col-wedding{
+    background-image: linear-gradient( 150deg, #e0da59, #fff);
+    font-family: 'Sen', sans-serif;
+    font-size: 24pt;
+}
+
+.col-day{
+    background-image: linear-gradient(#679ca7, #fff);
+    font-family: 'Sen', sans-serif;
+    font-size: 24pt;
+}
+
+.col-blues{
+    background-image: linear-gradient( 190deg, #d48e7a, #fff);
+    font-family: 'Sen', sans-serif;
+    font-size: 24pt;
+}
+
+.container-fluid{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.row, .row-awards{
+    width: 67%;
+    margin-top: 0;
+}
+
+/* --------   hr lines -------------- */
+
+.short{
+    width: 67%;
+    background-color: black;
+    border:none;
+    height: 2px;
+}
+
+.dark{
+    background-color: black;
+    border:none;
+    height: 1.5pt;
+    width: 67%;
+}
+
+/*-----------  fonts and titles ----------------- */
+
+.learning{
+    font-size: 24pt;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 1.5pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*----------- paragraph indents ----------------- */
+
+.tab1{
+    text-align: center;
+    font-size: 14pt;
+}
+
+.tab2{
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.tab3{
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.tab4{
+    text-align: center;
+    margin-left: 21%;
+    margin-right: 21%;
+    font-size: 14pt;
+}
+
+/* --------- footer ------------- */
+
+.footer{
+    font-size: 16pt;
+    font-family: 'Sen', sans-serif;
+    color: black;
+    letter-spacing: 2pt;
+    word-spacing: 2pt;
+    background-color: #b3cdd3;
+    margin-bottom: -2%;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 9px;
+    text-align: center;
+}
+
+.contact-details{
+    padding-left: 12px;
+    list-style: none;
+    width: 67%;
+}
+
+.row-contact{
+    width: 100%;
+}
+
+.social{
+    font-size: 12pt;
+    border: 3pt solid red;
+}
+
+
+
+
+/* ---------  Explore with us sections menu ------------- */
+
+.container-fluid, .explore{
+    font-family: 'Sen', sans-serif;
+    margin-top: -3px;
+}
+
+.row-explore, .row, .col{
+    margin-top: -12px;
+    margin-bottom: -3px;
+    padding-bottom: 18px;
+}
+
+.explore{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.search{
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    word-spacing: 270pt;
+}
+
+/*---------- font awesome styling ---------*/
+
+.fa-book, .fa-map-signs{
+    color: #e0da59;
+}
+
+.fa-tools, .fa-retweet{
+    color: #679ca7;
+}
+
+
+.fa-laptop-code, .fa-calculator{
+    color: #d48e7a;
+}
+
+.retweet{
+    color: black;
+}
+
+.fa-map-signs, .fa-tools, .fa-retweet, .fa-calculator, .fa-laptop-code{
+    padding-top: 6px;
+}
+
+
+.row .learn-logos{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 12px;
+    word-spacing: 6pt;
+}
+
+
+.row, .fa-award, .fa-calendar-alt, .fa-city, .fa-envelope{
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 18px;
+}
+
+/*---------- form ---------*/
+
+form, .form-group .container-fluid{
+    width: 67%;
+    margin: 0 auto;
+}
+
+
+.btn, .btn-success{
+    margin-left: 50%;
+    margin-top: 12px;
+    border: 1pt solid black;
+    color: white;
+    background: linear-gradient(green, darkgreen);
+}
