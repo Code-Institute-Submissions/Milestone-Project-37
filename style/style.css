@@ -63,15 +63,12 @@ a:hover{
     font-size: 14pt;
 }
 
-
-
 .learn-logos{
     text-align: center;
     padding-bottom: 12px;
     word-spacing: 6pt;
 }
 
-/* --------  review font size and points of emphasis     -------------- */
 .intro-text, .col{
     font-family: 'Sen', sans-serif;
     font-size: 20pt;
@@ -104,7 +101,7 @@ a:hover{
     letter-spacing: 2pt;
 }
 
-/* ---------  Images and logos   ------------- */
+/* ---------  Images and logos (not Font Awesome)  ------------- */
 
 .logo{
     background-image: url("images/logo.jpeg");
@@ -112,10 +109,9 @@ a:hover{
     background-repeat: no-repeat;
     height: 360px;
     min-width: 99%;
-    background-position: center;
-    
+    background-position: center;    
 }
-/* -----adjust min height and max height for viewing on mobile ---*/
+
 div .logo-understanding{
     background-image: url("images/understandinglg.jpeg");
     background-size: contain;
@@ -145,7 +141,6 @@ div .logo-thinking{
     min-height: 360px;
     margin: 0;
 }
-
 
 .number-evidence{
     font-weight: 700;
@@ -229,7 +224,7 @@ div .logo-thinking{
     text-align: center;
 }
 
-/*----------- paragraph indents ----------------- */
+/*----------- paragraph indents for content ----------------- */
 
 .tab1{
     text-align: center;
@@ -290,9 +285,7 @@ div .logo-thinking{
 }
 
 
-
-
-/* ---------  Explore with us sections menu ------------- */
+/* ---------  Explore with us sections menu (Thinking Problem Solving Understanding)---------- */
 
 .container-fluid, .explore{
     font-family: 'Sen', sans-serif;
@@ -340,7 +333,6 @@ div .logo-thinking{
     padding-top: 6px;
 }
 
-
 .row .learn-logos{
     margin: 0 auto;
     text-align: center;
@@ -355,7 +347,7 @@ div .logo-thinking{
     margin-bottom: 18px;
 }
 
-/*---------- form ---------*/
+/*---------- form and buttons ---------*/
 
 form, .form-group .container-fluid{
     width: 67%;
@@ -369,4 +361,8 @@ form, .form-group .container-fluid{
     border: 1pt solid black;
     color: white;
     background: linear-gradient(green, darkgreen);
+}
+
+.active{
+  text-decoration: underline;
 }
