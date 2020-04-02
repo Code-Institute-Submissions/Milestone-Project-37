@@ -347,6 +347,10 @@ div .logo-thinking{
     margin-bottom: 18px;
 }
 
+.fa-check-circle{
+    color: green;
+}
+
 /*---------- form and buttons ---------*/
 
 form, .form-group .container-fluid{
