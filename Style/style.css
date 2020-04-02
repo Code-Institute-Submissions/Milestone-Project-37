@@ -110,11 +110,10 @@ a:hover{
     background-image: url("Images/logo.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 330px;
-    width: 99%;
+    height: 360px;
+    min-width: 99%;
     background-position: center;
-    padding-left: 60px;
-    padding-top: 15px;
+    
 }
 /* -----adjust min height and max height for viewing on mobile ---*/
 div .logo-understanding{
@@ -344,6 +343,9 @@ div .logo-thinking{
 
 .row .learn-logos{
     margin: 0 auto;
+    text-align: center;
+    padding-bottom: 12px;
+    word-spacing: 6pt;
 }
 
 
