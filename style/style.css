@@ -324,9 +324,8 @@ div .logo-skills{
     color: green;
 }
 
-slisnetu.fasilver    color: darkgoldenrod;
-    padding-top: 12px;
-    padding-bottom: 12px;
+.fa-utensils{
+    color:silver;
 }
 
 .fa-cookie-bite {
