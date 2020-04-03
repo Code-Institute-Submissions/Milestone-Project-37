@@ -15,15 +15,29 @@ ul .fourkids{
     letter-spacing: -0.5pt;
     color: black;
     letter-spacing: 1.5pt;
+    margin-top: 9px;
+    margin-bottom: 1%;
 }
 /*--- navbar from bootstrap ---*/
 .navbar{  
     background: #b3cdd3;
     list-style: none;
-    margin-top: -1%;
-    margin-bottom: 1%;
+    margin-top: 0%;
     border-radius: 0;
     padding-top: 3px;  
+    margin-bottom: -1%;
+    width: 100%;
+}
+
+li, a .fa-home{
+    margin-top: 12px;
+    padding-right: 6px;
+    color:black;
+ 
+
+a:hover .fa-home{
+    color: red;
+}   
 }
 
 /* ----------  Whole website aspects  ------------ */
@@ -63,12 +77,6 @@ a:hover{
     font-size: 14pt;
 }
 
-.learn-logos{
-    text-align: center;
-    padding-bottom: 12px;
-    word-spacing: 6pt;
-}
-
 .intro-text, .col{
     font-family: 'Sen', sans-serif;
     font-size: 20pt;
@@ -78,27 +86,14 @@ a:hover{
 
 /* --------  About Approach and Awards styling fonts       -------------- */
 
-.about{
-    padding-top: 24px;
+.about, .approach, .awards{
+    padding-top: 15px;
     font-size: 15pt;
     font-family: 'Sen', sans-serif;
     color: black;
     letter-spacing: 2pt;
     word-spacing: 2pt;
-}
-
-.approach{
-    padding-top: 24px;
-    font-size: 15pt;
-    font-family: 'Sen', sans-serif;
-    letter-spacing: 2.5pt;
-}
-
-.awards{
-    padding-top: 24px;
-    font-size: 15pt;
-    font-family: 'Sen', sans-serif;
-    letter-spacing: 2pt;
+    padding-left: 12px;
 }
 
 /* ---------  Images and logos (not Font Awesome)  ------------- */
@@ -278,6 +273,8 @@ div .logo-skills{
     margin-top: -12px;
     margin-bottom: -3px;
     padding-bottom: 18px;
+    width: 83%;
+    margin: 0 auto;
 }
 
 .explore{
@@ -302,7 +299,6 @@ div .logo-skills{
     color: #679ca7;
 }
 
-
 .fa-laptop-code, .fa-calculator{
     color: #d48e7a;
 }
@@ -311,7 +307,7 @@ div .logo-skills{
     padding-top: 6px;
 }
 
-.row .learn-logos{
+.learn-logos{
     margin: 0 auto;
     text-align: center;
     padding-bottom: 12px;
@@ -328,14 +324,13 @@ div .logo-skills{
     color: green;
 }
 
-.fa-home {
-    color: darkgoldenrod;
+slisnetu.fasilver    color: darkgoldenrod;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
 .fa-cookie-bite {
-    color:  rgb(206, 150, 110);
+    color:  brown;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -398,7 +393,7 @@ form, .form-group .container-fluid{
 
 /*--- btn from bootstrap ---*/
 .btn, .btn-success{
-    margin-left: 50%;
+    margin-left: 48%;
     margin-top: 12px;
     border: 1pt solid black;
     color: white;
