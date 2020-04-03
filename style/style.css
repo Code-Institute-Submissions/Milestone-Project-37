@@ -133,7 +133,6 @@ div .logo-skills{
 /* --------  row and columns -------------- */
 
 .row{
-    width: 67%;
     margin: auto;
     padding-top: 12px;
 }
@@ -176,7 +175,7 @@ div .logo-skills{
 }
 
 .row, .row-awards{
-    width: 67%;
+    width: 90%;
     margin-top: 0;
 }
 
@@ -210,7 +209,7 @@ div .logo-skills{
 
 .tab1{
     text-align: center;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 .tab2{
@@ -400,7 +399,6 @@ form, .form-group .container-fluid{
     width: 67%;
     margin: 0 auto;
 }
-
 
 .btn, .btn-success{
     margin-left: 50%;
