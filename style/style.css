@@ -48,6 +48,7 @@ a{
 
 a:hover{
     color: red;
+    text-decoration: none;
 }
 
 .intro-text{
@@ -185,10 +186,13 @@ div .logo-skills{
 }
 
 .dark{
-    background-color: black;
-    border:none;
     height: 1.5pt;
-    width: 67%;
+    border-bottom: 2pt solid black;
+    display: block;
+    width: 68%;
+    margin-left: 16%;
+    margin-bottom: 9px;
+    padding-top: 6px;
 }
 
 /*-----------  fonts and titles ----------------- */
@@ -199,6 +203,7 @@ div .logo-skills{
     letter-spacing: 1.5pt;
     font-weight: 700;
     text-align: center;
+    padding-top: 15px;
 }
 
 /*----------- paragraph indents for content ----------------- */
@@ -311,7 +316,6 @@ div .logo-skills{
     margin: 0 auto;
     text-align: center;
     padding-bottom: 12px;
-    word-spacing: 6pt;
 }
 
 .row, .fa-award, .fa-calendar-alt, .fa-city, .fa-envelope{
