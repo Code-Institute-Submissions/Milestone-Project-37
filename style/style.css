@@ -16,7 +16,7 @@ ul .fourkids{
     color: black;
     letter-spacing: 1.5pt;
 }
-
+/*--- navbar from bootstrap ---*/
 .navbar{  
     background: #b3cdd3;
     list-style: none;
@@ -122,8 +122,6 @@ div .logo-skills{
     margin: 0;
 }
 
-
-
 .number-evidence{
     font-weight: 700;
     font-style: italic;
@@ -132,6 +130,7 @@ div .logo-skills{
 
 /* --------  row and columns -------------- */
 
+/*--- row from bootstrap ---*/
 .row{
     margin: auto;
     padding-top: 12px;
@@ -142,6 +141,7 @@ div .logo-skills{
     text-align: center;
 }
 
+/*--- col from bootstrap ---*/
 .col{
     font-size: 12pt;
     padding: 6px;
@@ -168,6 +168,7 @@ div .logo-skills{
     font-size: 24pt;
 }
 
+/*--- container-fluid from bootstrap ---*/
 .container-fluid{
     width: 100%;
     display: inline-block;
@@ -306,10 +307,6 @@ div .logo-skills{
     color: #d48e7a;
 }
 
-.retweet{
-    color: black;
-}
-
 .fa-map-signs, .fa-tools, .fa-retweet, .fa-calculator, .fa-laptop-code{
     padding-top: 6px;
 }
@@ -321,7 +318,6 @@ div .logo-skills{
     word-spacing: 6pt;
 }
 
-
 .row, .fa-award, .fa-calendar-alt, .fa-city, .fa-envelope{
     text-align: center;
     margin-top: 9px;
@@ -331,7 +327,6 @@ div .logo-skills{
 .fa-check-circle{
     color: green;
 }
-
 
 .fa-home {
     color: darkgoldenrod;
@@ -395,11 +390,13 @@ div .logo-skills{
 
 /*---------- form and buttons ---------*/
 
+/*--- form from bootstrap ---*/
 form, .form-group .container-fluid{
     width: 67%;
     margin: 0 auto;
 }
 
+/*--- btn from bootstrap ---*/
 .btn, .btn-success{
     margin-left: 50%;
     margin-top: 12px;
