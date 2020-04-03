@@ -3,14 +3,14 @@
 
 ul .fourkids{
    font-family: 'Butterfly Kids', cursive;
-   font-size: 32pt;
+   font-size: 30pt;
    color:black;
    padding-left: 3pt;  
 }
 
 .company-name{
     font-weight: 300;
-    font-size: 18pt;
+    font-size: 16pt;
     font-family: 'Sen', sans-serif;
     letter-spacing: -0.5pt;
     color: black;
@@ -25,6 +25,7 @@ ul .fourkids{
     margin-top: 0%;
     border-radius: 0;
     padding-top: 3px;  
+    padding-bottom: 12px;
     margin-bottom: -1%;
     width: 100%;
 }
@@ -33,11 +34,10 @@ li, a .fa-home{
     margin-top: 12px;
     padding-right: 6px;
     color:black;
- 
+}
 
 a:hover .fa-home{
     color: red;
-}   
 }
 
 /* ----------  Whole website aspects  ------------ */
@@ -326,6 +326,8 @@ div .logo-skills{
 
 .fa-utensils{
     color:silver;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .fa-cookie-bite {
