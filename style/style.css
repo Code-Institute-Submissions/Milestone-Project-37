@@ -112,8 +112,8 @@ a:hover{
     background-position: center;    
 }
 
-div .logo-understanding{
-    background-image: url("images/understandinglg.jpeg");
+div .logo-skills{
+    background-image: url("images/skillslogo.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,25 +122,7 @@ div .logo-understanding{
     margin: 0;
 }
 
-div .logo-problemsolving{
-    background-image: url("images/problemsolving.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-width: 100%;
-    min-height: 360px;
-    margin: 0;
-}
 
-div .logo-thinking{
-    background-image: url("images/thinking.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-width: 100%;
-    min-height: 360px;
-    margin: 0;
-}
 
 .number-evidence{
     font-weight: 700;
@@ -349,6 +331,67 @@ div .logo-thinking{
 
 .fa-check-circle{
     color: green;
+}
+
+
+.fa-home {
+    color: darkgoldenrod;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-cookie-bite {
+    color:  rgb(206, 150, 110);
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-bread-slice{
+    color: burlywood;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-bone{
+    color: grey;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-feather{
+    color: silver;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-sun{
+    color: orange;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-wind{
+    color: silver;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-campground{
+    color: green;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-pound-sign{
+    color: blue;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.fa-subway{
+    color: slategray;
+    padding-top: 6px;
+    padding-bottom: 12px;
 }
 
 /*---------- form and buttons ---------*/
