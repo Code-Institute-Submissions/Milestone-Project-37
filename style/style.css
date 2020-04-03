@@ -330,7 +330,7 @@ slisnetu.fasilver    color: darkgoldenrod;
 }
 
 .fa-cookie-bite {
-    color:  brown;
+    color: brown;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -381,6 +381,10 @@ slisnetu.fasilver    color: darkgoldenrod;
     color: slategray;
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+a:hover .fa-home{
+    color: red;
 }
 
 /*---------- form and buttons ---------*/
