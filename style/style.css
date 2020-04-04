@@ -36,9 +36,6 @@ li, a .fa-home{
     color:black;
 }
 
-a:hover .fa-home{
-    color: red;
-}
 
 /* ----------  Whole website aspects  ------------ */
 
@@ -49,6 +46,10 @@ a{
 a:hover{
     color: red;
     text-decoration: none;
+}
+
+a:hover .fa-home{
+    color: red;
 }
 
 .intro-text{
@@ -83,6 +84,17 @@ a:hover{
     font-size: 20pt;
     font-weight: 500;
     word-spacing: 2pt;
+}
+
+/*-----------  fonts and titles ----------------- */
+
+.learning{
+    font-size: 24pt;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 1.5pt;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
 }
 
 /* --------  About Approach and Awards styling fonts       -------------- */
@@ -176,7 +188,7 @@ div .logo-skills{
     margin-top: 0;
 }
 
-/* --------   hr lines -------------- */
+/* --------   horizontal lines -------------- */
 
 .short{
     width: 67%;
@@ -193,17 +205,6 @@ div .logo-skills{
     margin-left: 16%;
     margin-bottom: 9px;
     padding-top: 6px;
-}
-
-/*-----------  fonts and titles ----------------- */
-
-.learning{
-    font-size: 24pt;
-    font-family: 'Sen', sans-serif;
-    letter-spacing: 1.5pt;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 15px;
 }
 
 /*----------- paragraph indents for content ----------------- */
@@ -285,6 +286,7 @@ div .logo-skills{
 .explore{
     text-align: center;
     margin: 0 auto;
+    margin-top: 9px;
 }
 
 .search{
@@ -388,9 +390,7 @@ div .logo-skills{
     padding-bottom: 12px;
 }
 
-a:hover .fa-home{
-    color: red;
-}
+
 
 /*---------- form and buttons ---------*/
 
@@ -401,13 +401,18 @@ form, .form-group .container-fluid{
 }
 
 /*--- btn from bootstrap ---*/
-.btn, .btn-success{
-    margin-left: 48%;
-    margin-top: 12px;
+
+.button{
+    width: 100%;
+}
+
+.button, .btn, .btn-success{
+    margin-left: 45%;
+    margin-top: 9px;
     border: 1pt solid black;
-    color: white;
     background: linear-gradient(green, darkgreen);
 }
+
 
 .active{
   text-decoration: underline;
