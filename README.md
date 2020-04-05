@@ -136,9 +136,11 @@ All code was written on Github using a newly created repository.
 
 https://github.com/samc85/Milestone-Project-1 
 
-(note: commit history for style.css is also captured within 
-style/csscommithistory/ where screenshots were taken.  This is due to history not replicating during 
-file and folder re-naming).  
+*(note: commit history for style.css is also captured within 
+the link below where screenshots were taken.  This is due to history not replicating during 
+file and folder re-naming).* 
+
+https://github.com/samc85/Milestone-Project-1/blob/b40ed2d112f1c92f08632381a4cefe4e4216ad9b/style/csscommithistory
 
 Using GitHub, HTML, CSS and additional resources were
 
