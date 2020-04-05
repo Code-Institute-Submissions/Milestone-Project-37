@@ -16,6 +16,7 @@ UX
 This website is for the owners of the company with a strong focus on providing information and insight for the user.
 The website is designed for the user to understand what the purpose of the company is, who and how it works and what it does.
 
+In a test of the website, users found the site to be clean, clear and easy to navigate.  
 
 ----------------"USER STORIES".  for use of website and form and purpose
 
