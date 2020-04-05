@@ -2,8 +2,12 @@
 
 `python3 -m http.server`
 
-Lifeskills Learning 4 Kids
+# Lifeskills Learning 4 Kids
+
 This website is for a children's tutoring company, with a focus on teaching lifeskills.
+Having worked in Special Education for close to 10 years, the lack of focus on lifeskills both in and out of a school setting was of great concern to many families.  
+As students have various needs, having a structured, research backed approach to teaching lifeskills was considered a need outside of a school environment, just as Maths and English tutoring centers are.
+
 With such an increasing focus on exams and academics in schools (starting as early as Nursery for many), children
 are missing out on those essential day to day skills to get them through life.  E.g, following a set of instructions to 
 make a piece of IKEA furnitiure or how to follow a recipe.  We teach them to complete daily activities by UNDERSTANDING what needs to be done, 
@@ -11,80 +15,96 @@ PROBLEM SOLVING through a range of strategies and drawing upon experiences and T
 The company website is designed to give an insight into its aims, principles behind its approach and give some examples
 of daily lifeskills within each of the aforementioned areas in an accessible and inviting way.
 
-UX
+## UX
 
 This website is for the owners of the company with a strong focus on providing information and insight for the user.
 The website is designed for the user to understand what the purpose of the company is, who and how it works and what it does.
 
-In a test of the website, users (from SLACK Code Institute Peer-review channel and professionals within my school workplace) found the site to be clean, clear and easy to navigate.  
-When tested through W3 validator, Goolge Mobile Friendly-Test, W3 CSS validator and W3 HTML Validator only one error appeared.
-
-W3 HTML validator:
-            Illegal character ('|') in google font Stylesheet.
-
-This however did not demonstrate any issues with the website's UX.
-
 The website can be divided into 4 main areas, each containing a variable amount of pages.  These are:
 
-Introduction Page (index)
-About Approach and Awards pages (navigated by header and footer menus)
-Understanding Problem Solving and Thinking Pages (navigated by color associated columns present on each page)
-Contact page (navigated through footer via menu link)
+* Introduction Page (index)
+* About Approach and Awards pages (navigated by header and footer menus)
+* Understanding Problem Solving and Thinking Pages (navigated by color associated columns present on each page)
+* Contact page (navigated through footer via menu link)
 
 
-Features
+## Features
 
 The website uses Bootstrap 4.4.1 due to its layout and responsiveness.  Custom alterations are made
 in order to increase customisation of website e.g, color schemes and spacing. 
 
 The following features are also included throughout the page (external sources attributed).
 
-Navbar (Bootstrap 4.4.1 and Google Fonts)
+* Navbar (Bootstrap 4.4.1, Font Awesome and Google Fonts)
 Navbar includes company name styled with 2 different fonts for impact and to emphasise appeal to children.  Bootstrap 4 was used
-to set layout. 
+to set layout. Navbar links hover red.
 
-Content (Font Awesome)
-Font Awesome icons are used throughout the page to include 
+* Content (Font Awesome)
+Font Awesome icons are used throughout the page.  Various icons are coloured/re-sized using CSS.
 
-Background images
+* Background images via CSS
+Images are styled using CSS and written as background images.  As images are non-essential
+and do not contain any information, this is why this was done as opposed to using a HTML tag.
 
-Footer (Bootstrap 4.4.1)
-Bootstrap
+* Footer (Bootstrap 4.4.1 and Font Awesome)
+Footer includes contact page link and repeats menu options from Navbar for UX ease.  
+Home button is stylised through Font Awesome.
 
-
------------------
-
-Features Left to Implement
-Games in content areas
-Live form submission
-
-
-******Technologies Used
-
-1.HTML
-2.CSS
-3.Bootstrap 4.4.1
-4.Font Awesome
-5.Google fonts
-6.Procreate (app for visuals)
+* Form (Bootstrap 4.4.1)
+On the contact page, the form is used to collect user contact info.  Form submission is currnetly
+empty.
 
 
+## Features Left to Implement
 
-Testing
+* Games in content areas
+In discussion with Users who tested the site, having some interactive games to alternate between
+quizzes would be a good way to increase UX.
 
-Validation
+* Live form submission
+The contact details form is currently empty and can be added to submit through relevant tool.
 
-User bugs
+## Technologies Used
 
-technologoies
+1. HTML
+2. CSS
+3. Bootstrap 4.4.1
+4. Font Awesome
+5. Google fonts
+6. Procreate (app for visuals)
 
-responsivness e.g. mobile and ipad friendly
+## Testing
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The website was tested using the following:
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+* Google Dev. Tools 
+This was used to view the responsiveness of the webpage through the following:
+Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pro.  
 
-Deployment
+The website link was also tested on a Macbook Pro.
+
+* Validation tools
+
+The website was checked through the following validation services:
+
+* https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamc85.github.io%2FMilestone-Project-1%2Findex.html
+(1 error relating to google font link- bad value).  
+
+* https://jigsaw.w3.org/css-validator/validator (no errors)
+
+* https://search.google.com/test/mobile-friendly?id=ItaRQsvKUbcrc-COLZeDDg (no errors)
+
+
+Overall the website was deemed to be mobile friendly and adhered to HTML and CSS standards.
+
+
+## User bugs
+
+In initial testing some text would overflow in columns.  Certain icon layouts would also 'bunch' together
+and were corrected.  
+
+
+## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -94,10 +114,18 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+## Credits
+w3 schools
+code Institute
+mentor 
+
+
+## Content
+
+### Text 
+The text for the page was written by myself and proofread by another colleague in the education sector.
+
+### Media
+The images used in this site were drawn by myself using Procreate for ipad (done on an ipad pro with apple pencil).
+
+### Acknowledgements
