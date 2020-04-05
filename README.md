@@ -13,24 +13,29 @@ This website is for a children's tutoring company, with a focus on teaching life
 Having worked in Special Education for close to 10 years, the lack of focus on lifeskills both in and out of a school setting was of great concern to many families.  
 As students have various needs, having a structured, research backed approach to teaching lifeskills was considered a need outside of a school environment, just as Maths and English tutoring centers are.
 
-With such an increasing focus on exams and academics in schools (starting as early as Nursery for many), children
+### Company mission statement:
+
+*With such an increasing focus on exams and academics in schools (starting as early as Nursery for many), children
 are missing out on those essential day to day skills to get them through life.  E.g, following a set of instructions to 
 make a piece of IKEA furnitiure or how to follow a recipe.  We teach them to complete daily activities by UNDERSTANDING what needs to be done, 
-PROBLEM SOLVING through a range of strategies and drawing upon experiences and THINKING skills.  
+PROBLEM SOLVING through a range of strategies and drawing upon experiences and THINKING skills.*  
+
 The company website is designed to give an insight into its aims, principles behind its approach and give some examples
 of daily lifeskills within each of the aforementioned areas in an accessible and inviting way.
 
 ## UX
 
-This website is for the owners of the company with a strong focus on providing information and insight for the user.
+This website is for the company with a strong focus on providing information and insight for the user, ie, potential customers.
 The website is designed for the user to understand what the purpose of the company is, who and how it works and what it does.
 
-The website can be divided into 4 main areas, each containing a variable amount of pages.  These are:
+The website can be divided into 4 main areas.  These are:
 
 * Introduction Page (index)
 * About Approach and Awards pages (navigated by header and footer menus)
 * Understanding Problem Solving and Thinking Pages (navigated by color associated columns present on each page)
 * Contact page (navigated through footer via menu link)
+
+All pages have links back to each section for ease of navigation.
 
 ## User Stories
 
@@ -43,9 +48,11 @@ The website can be divided into 4 main areas, each containing a variable amount 
 
 ![responsive image](https://samc85.github.io/Milestone-Project-1/style/wireframes/pagetree.png)
 
-Page tree is included for site pathways.  Wireframe for mobile first based design is located attributed
+Page tree is included for site pathways.  Wireframe for mobile and desktop based design is located below: 
 
 https://github.com/samc85/Milestone-Project-1/tree/master/style/wireframes
+
+*Example of index page wireframe.*
 
 ![responsive image](https://samc85.github.io/Milestone-Project-1/style/wireframes/indexpage.png)
 
@@ -79,14 +86,15 @@ Home button is stylised through Font Awesome.
 On the contact page, the form is used to collect user contact info.  Form submission is currently
 empty.
 
+* Links to social media pages (currently to general social media sites).
+
 
 ## Features Left to Implement
 
-* Games in content areas
-In discussion with Users who tested the site, having some interactive games to alternate between
-quizzes would be a good way to increase UX.
+* Games in content areas: *In discussion with Users who tested the site, having some interactive games to alternate between
+quizzes would be a good way to increase UX.*
 
-* Live form submission:  The contact details form is currently empty and can be added to submit through relevant tool.
+* Live form submission:  *The contact details form is currently empty and can be added to submit through relevant tool.*
 
 * As the company grows, a vacancies/work for us section to be added.
 
@@ -113,21 +121,19 @@ This was used through `python3 -m http.server` provided by Code Institute.
 This was used to view the responsiveness of the webpage through the following:
 Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pro.  
 
-* Validation tools
-
-The website was checked through the following validation services:
+ The website was checked through the following Validation service tools:
 
 * https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamc85.github.io%2FMilestone-Project-1%2Findex.html
-(1 error relating to google font link- bad value).  
+(1 error relating to google font link- bad value, however no effect to page).  
 
 * https://jigsaw.w3.org/css-validator/validator (no errors)
 
 * https://search.google.com/test/mobile-friendly?id=ItaRQsvKUbcrc-COLZeDDg (no errors)
 
-Testing was also done through live user devices consistently, including an iphone 7, Macbook Pro and Ipad Pro where
+Testing was also done through live user devices consistently, including an iphone 7, Macbook Pro and Ipad Pro therefore
 responsiveness was consistently tested throughout the process. 
 
-Overall the website was deemed to be mobile friendly and adhered to HTML and CSS standards.  
+Overall the website was consistently responsive according to the above tests  and adhered to HTML and CSS standards set out by validation tools described above.  
 
 
 ## Speed
