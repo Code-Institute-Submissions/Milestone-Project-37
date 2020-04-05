@@ -39,11 +39,19 @@ The website can be divided into 4 main areas, each containing a variable amount 
 * As a prospective customer, I want a clear, visually appealing webpage that displays its purpose clearly.
 * As a prospective customer, I want to be able to find information easily about the approach an educational institute may take.
 
-Wireframes
+## Wireframes
 
 ![responsive image](https://samc85.github.io/Milestone-Project-1/style/wireframes/pagetree.png)
 
+Page tree is included for site pathways.  Wireframe for mobile first based design is located attributed
 
+https://github.com/samc85/Milestone-Project-1/tree/master/style/wireframes
+
+![responsive image](https://samc85.github.io/Milestone-Project-1/style/wireframes/indexpage.png)
+
+Wireframes generally reamined true to website design.  Index page is included above.  Whilst details
+would still be filled in, the layout of each page type generally remained the same throughout the process and
+across devices.
 
 ## Features
 
