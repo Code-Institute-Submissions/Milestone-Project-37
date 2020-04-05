@@ -16,15 +16,14 @@ UX
 This website is for the owners of the company with a strong focus on providing information and insight for the user.
 The website is designed for the user to understand what the purpose of the company is, who and how it works and what it does.
 
-In a test of the website, users found the site to be clean, clear and easy to navigate.  
+In a test of the website, users (from SLACK Code Institute Peer-review channel and professionals within my school workplace) found the site to be clean, clear and easy to navigate.  
+When tested through W3 validator, Goolge Mobile Friendly-Test, W3 CSS validator and W3 HTML Validator only one error appeared.
 
-----------------"USER STORIES".  for use of website and form and purpose
+W3 HTML validator:
+            Illegal character ('|') in google font Stylesheet.
 
+This however did not demonstrate any issues with the website's UX.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-Features
 The website can be divided into 4 main areas, each containing a variable amount of pages.  These are:
 
 Introduction Page (index)
@@ -32,27 +31,54 @@ About Approach and Awards pages (navigated by header and footer menus)
 Understanding Problem Solving and Thinking Pages (navigated by color associated columns present on each page)
 Contact page (navigated through footer via menu link)
 
+
+Features
+
+The website uses Bootstrap 4.4.1 due to its layout and responsiveness.  Custom alterations are made
+in order to increase customisation of website e.g, color schemes and spacing. 
+
+The following features are also included throughout the page (external sources attributed).
+
+Navbar (Bootstrap 4.4.1 and Google Fonts)
+Navbar includes company name styled with 2 different fonts for impact and to emphasise appeal to children.  Bootstrap 4 was used
+to set layout. 
+
+Content (Font Awesome)
+Font Awesome icons are used throughout the page to include 
+
+Background images
+
+Footer (Bootstrap 4.4.1)
+Bootstrap
+
+
 -----------------
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Games in content areas
+Live form submission
 
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+******Technologies Used
+
+1.HTML
+2.CSS
+3.Bootstrap 4.4.1
+4.Font Awesome
+5.Google fonts
+6.Procreate (app for visuals)
+
+
+
+Testing
+
+Validation
+
+User bugs
+
+technologoies
+
+responsivness e.g. mobile and ipad friendly
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
