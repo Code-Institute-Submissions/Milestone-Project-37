@@ -8,7 +8,9 @@ https://samc85.github.io/Milestone-Project-1/index.html
 
 
 
-![responsive image](workspace/Milestone-Project-1/style/images/readmeimage.png)
+![responsive image](https://c1fa504f-954f-46e8-8e34-40e71d3433e7.ws-us02.gitpod.io/mini-browser/workspace/Milestone-Project-1/style/images/readmeimage.png)
+
+
 
 
 # Lifeskills Learning 4 Kids
@@ -36,6 +38,12 @@ The website can be divided into 4 main areas, each containing a variable amount 
 * Understanding Problem Solving and Thinking Pages (navigated by color associated columns present on each page)
 * Contact page (navigated through footer via menu link)
 
+## User Stories
+
+As a prospective customer, I want to navigate easily through a webpage in order to find out who they are and how they do things.
+As a prospective customer, I want to be able to contact the company easily through their webpage.
+As a prospective customer, I want a clear, visually appealing webpage that displays its purpose clearly.
+As a prospective customer, I want to be able to find information easily about the approach an educational institute may take.
 
 ## Features
 
@@ -72,14 +80,19 @@ quizzes would be a good way to increase UX.
 
 * Live form submission:  The contact details form is currently empty and can be added to submit through relevant tool.
 
+* As the company grows, a vacancies/work for us section to be added.
+
+* As the company grows/opens a individual login for different account holders to display tailored information such as billing, timetables.
+
 ## Technologies Used
 
-1. HTML
+1. HTML5
 2. CSS
 3. Bootstrap 4.4.1
 4. Font Awesome
 5. Google fonts
 6. Procreate (app for visuals)
+7. GitHub
 
 ## Testing
 
@@ -105,6 +118,12 @@ The website was checked through the following validation services:
 
 Overall the website was deemed to be mobile friendly and adhered to HTML and CSS standards.
 
+## Speed
+
+* https://tools.pingdom.com/#5c52cd18a2c00000
+
+Website speed was tested and graded a B (88). 
+
 
 ## User bugs
 
@@ -113,10 +132,7 @@ and were corrected.
 
 
 ## Deployment
-All code was written on Github.  Files were added, commited and pushed to Github Repository for this user.  
-This was repeated throughout the writing of the code.
-The page was published using Github Pages, accessed in the settings part of the repository.
-Commit history is viewable through the Repository 
+All code was written on Github using a newly created repository.
 
 https://github.com/samc85/Milestone-Project-1 
 
@@ -124,6 +140,14 @@ https://github.com/samc85/Milestone-Project-1
 style/csscommithistory/ where screenshots were taken.  This is due to history not replicating during 
 file and folder re-naming).  
 
+Using GitHub, HTML, CSS and additional resources were
+
+* Git add (ed)
+* Git commit (ed) -m
+* Git push (ed) to Repository
+
+Within the repository, under the settings button GitHub Pages was accessed and published to created
+a live website.  
 
 ## Credits
 
@@ -139,4 +163,10 @@ file and folder re-naming).
 ### Media
 * The images used in this site were drawn by myself using Procreate for ipad (done on an ipad pro with apple pencil).
 
-### Acknowledgements
+* Banner image in README.md was created using
+
+http://techsini.com/multi-mockup/
+
+## Acknowledgements 
+
+The inspiration for this webpage was from my current career, highlighting what I believe to be a gap in the market.
