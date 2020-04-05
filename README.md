@@ -1,18 +1,11 @@
 
 
 
-`python3 -m http.server`
-
-
-https://samc85.github.io/Milestone-Project-1/index.html
-
-
 
 ![responsive image](https://samc85.github.io/Milestone-Project-1/style/images/readmeimage.png)
 
 
-
-
+https://samc85.github.io/Milestone-Project-1/index.html
 
 # Lifeskills Learning 4 Kids
 
@@ -99,11 +92,12 @@ quizzes would be a good way to increase UX.
 
 The website was tested using the following:
 
+* GitHub live preview port
+This was used through `python3 -m http.server` provided by Code Institute. 
+
 * Google Dev. Tools 
 This was used to view the responsiveness of the webpage through the following:
 Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pro.  
-
-The website link was also tested on a Macbook Pro.
 
 * Validation tools
 
@@ -116,8 +110,11 @@ The website was checked through the following validation services:
 
 * https://search.google.com/test/mobile-friendly?id=ItaRQsvKUbcrc-COLZeDDg (no errors)
 
+Testing was also done through live user devices consistently, including an iphone 7, Macbook Pro and Ipad Pro where
+responsiveness was consistently tested throughout the process. 
 
-Overall the website was deemed to be mobile friendly and adhered to HTML and CSS standards.
+Overall the website was deemed to be mobile friendly and adhered to HTML and CSS standards.  
+
 
 ## Speed
 
