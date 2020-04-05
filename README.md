@@ -8,7 +8,8 @@ https://samc85.github.io/Milestone-Project-1/index.html
 
 
 
-![responsive image](https://c1fa504f-954f-46e8-8e34-40e71d3433e7.ws-us02.gitpod.io/mini-browser/workspace/Milestone-Project-1/style/images/readmeimage.png)
+![responsive image](https://samc85.github.io/Milestone-Project-1/style/images/readmeimage.png)
+
 
 
 
