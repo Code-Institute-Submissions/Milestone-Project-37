@@ -130,11 +130,21 @@ Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pr
 
 * https://search.google.com/test/mobile-friendly?id=ItaRQsvKUbcrc-COLZeDDg (no errors)
 
-Testing was also done through live user devices consistently, including an iphone 7, Macbook Pro and Ipad Pro therefore
-responsiveness was consistently tested throughout the process. 
+* Browserstack was also used to test on the following devices (chosen based on Browserstack Start Up data):
+
+https://www.browserstack.com/test-on-the-right-mobile-devices
+
+1. iphone 8
+2. iphone XR
+3. Google Pixel 3
+4. Samsung Galaxy S9+
+5. Samsung Galaxy S8 
+
+All tests showed the website as it intended to look with little/to no variation between devices.
 
 Overall the website was consistently responsive according to the above tests  and adhered to HTML and CSS standards set out by validation tools described above.  
 
+www.browserstack.com
 
 ## Speed
 
