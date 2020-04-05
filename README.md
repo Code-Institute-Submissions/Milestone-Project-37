@@ -34,10 +34,10 @@ The website can be divided into 4 main areas, each containing a variable amount 
 
 ## User Stories
 
-As a prospective customer, I want to navigate easily through a webpage in order to find out who they are and how they do things.
-As a prospective customer, I want to be able to contact the company easily through their webpage.
-As a prospective customer, I want a clear, visually appealing webpage that displays its purpose clearly.
-As a prospective customer, I want to be able to find information easily about the approach an educational institute may take.
+* As a prospective customer, I want to navigate easily through a webpage in order to find out who they are and how they do things.
+* As a prospective customer, I want to be able to contact the company easily through their webpage.
+* As a prospective customer, I want a clear, visually appealing webpage that displays its purpose clearly.
+* As a prospective customer, I want to be able to find information easily about the approach an educational institute may take.
 
 ## Features
 
