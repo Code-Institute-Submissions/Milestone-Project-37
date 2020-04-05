@@ -39,6 +39,12 @@ The website can be divided into 4 main areas, each containing a variable amount 
 * As a prospective customer, I want a clear, visually appealing webpage that displays its purpose clearly.
 * As a prospective customer, I want to be able to find information easily about the approach an educational institute may take.
 
+Wireframes
+
+![responsive image](https://samc85.github.io/Milestone-Project-1/style/wireframes/pagetree.png)
+
+
+
 ## Features
 
 The website uses Bootstrap 4.4.1 due to its layout and responsiveness.  Custom alterations are made
