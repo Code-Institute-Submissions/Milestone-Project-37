@@ -1,6 +1,15 @@
 
 
+
 `python3 -m http.server`
+
+
+https://samc85.github.io/Milestone-Project-1/index.html
+
+
+
+![responsive image](workspace/Milestone-Project-1/style/images/readmeimage.png)
+
 
 # Lifeskills Learning 4 Kids
 
@@ -51,7 +60,7 @@ Footer includes contact page link and repeats menu options from Navbar for UX ea
 Home button is stylised through Font Awesome.
 
 * Form (Bootstrap 4.4.1)
-On the contact page, the form is used to collect user contact info.  Form submission is currnetly
+On the contact page, the form is used to collect user contact info.  Form submission is currently
 empty.
 
 
@@ -61,8 +70,7 @@ empty.
 In discussion with Users who tested the site, having some interactive games to alternate between
 quizzes would be a good way to increase UX.
 
-* Live form submission
-The contact details form is currently empty and can be added to submit through relevant tool.
+* Live form submission:  The contact details form is currently empty and can be added to submit through relevant tool.
 
 ## Technologies Used
 
@@ -105,27 +113,30 @@ and were corrected.
 
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+All code was written on Github.  Files were added, commited and pushed to Github Repository for this user.  
+This was repeated throughout the writing of the code.
+The page was published using Github Pages, accessed in the settings part of the repository.
+Commit history is viewable through the Repository 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+https://github.com/samc85/Milestone-Project-1 
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+(note: commit history for style.css is also captured within 
+style/csscommithistory/ where screenshots were taken.  This is due to history not replicating during 
+file and folder re-naming).  
+
 
 ## Credits
-w3 schools
-code Institute
-mentor 
 
+* https://www.w3schools.com/   was used as a point of reference
 
+* Code Institute Course resources were used to revise/check back as a point of reference
+ 
 ## Content
 
 ### Text 
-The text for the page was written by myself and proofread by another colleague in the education sector.
+* The text for the page was written by myself and proofread by another colleague in the education sector.
 
 ### Media
-The images used in this site were drawn by myself using Procreate for ipad (done on an ipad pro with apple pencil).
+* The images used in this site were drawn by myself using Procreate for ipad (done on an ipad pro with apple pencil).
 
 ### Acknowledgements
