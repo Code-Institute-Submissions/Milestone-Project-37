@@ -404,7 +404,7 @@ form, .form-group .container-fluid{
     margin-left: 45%;
     margin-top: 9px;
     border: 1pt solid black;
-    background: linear-gradient(green, darkgreen);
+    background: darkgreen;
 }
 
 .active{
