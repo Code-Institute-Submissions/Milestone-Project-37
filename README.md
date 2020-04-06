@@ -5,7 +5,7 @@
 ![responsive image](https://samc85.github.io/Milestone-Project-1/style/images/readmeimage.png)
 
 
-https://samc85.github.io/Milestone-Project-1/index.html
+https://samc85.github.io/Milestone-Project-1/
 
 # Lifeskills Learning 4 Kids
 
@@ -139,10 +139,9 @@ link href="https://fonts.googleapis.com/css?family=Butterfly+Kids|Muli|Sen&displ
 
 This was ignored as sections were identifiable both through comments and clearly marked with headings on live page.
 
-
 * https://jigsaw.w3.org/css-validator/validator (no errors)
 
-* https://search.google.com/test/mobile-friendly?id=ItaRQsvKUbcrc-COLZeDDg (no errors)
+* https://search.google.com/test/mobile-friendly?view=fetch-info&id=q4uzg-TJfKy5nnwHnu9x5Q (no errors)
 
 * Browserstack was also used to test on the following devices (chosen based on Browserstack Start Up data):
 
