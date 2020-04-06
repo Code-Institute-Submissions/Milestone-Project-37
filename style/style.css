@@ -12,9 +12,8 @@ ul .fourkids{
     font-weight: 300;
     font-size: 16pt;
     font-family: 'Sen', sans-serif;
-    letter-spacing: -0.5pt;
     color: black;
-    letter-spacing: 1.5pt;
+    letter-spacing: 1pt;
     margin-top: 9px;
     margin-bottom: 1%;
 }

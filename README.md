@@ -124,7 +124,21 @@ Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pr
  The website was checked through the following Validation service tools:
 
 * https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamc85.github.io%2FMilestone-Project-1%2Findex.html
-(1 error relating to google font link- bad value, however no effect to page).  
+
+When using the HTML w3 validator, 1 error and warnings about using section headings described below.
+
+### Error
+*Bad value- illegal character '|' in link used for Google Fonts, therefore was ignored.*
+
+link href="https://fonts.googleapis.com/css?family=Butterfly+Kids|Muli|Sen&display=swap" rel="stylesheet"
+
+ 
+### Warnings
+
+*Section/s lack headings.  Consider using...*
+
+This was ignored as sections were identifiable both through comments and clearly marked with headings on live page.
+
 
 * https://jigsaw.w3.org/css-validator/validator (no errors)
 
@@ -146,6 +160,22 @@ All tests showed the website as it intended to look with little/to no variation 
 
 Overall the website was consistently responsive according to the above tests  and adhered to HTML and CSS standards set out by validation tools described above.  
 
+## User Testing
+
+The following tests were perofrmed on User Stories.
+
+* As a prospective customer, I want to navigate easily through a webpage in order to find out who they are and how they do things.
+* As a prospective customer, I want to be able to contact the company easily through their webpage.
+
+
+All links and navigation were tested on desktop, tablet and mobile devices by myself in order to fulfill user stories.  This included social media links
+and navigation through the webpage without use of back or forward buttons to get to desired page.
+This included asking test users to find certain pages, e.g, where is the contact page? where is the about section?
+
+* As a prospective customer, I want a clear, visually appealing webpage that displays its purpose clearly.
+* As a prospective customer, I want to be able to find information easily about the approach an educational institute may take.
+
+This included asking users to repeat back information from the webpage, e.g, what do different pages relay and what are the 3 areas of learning?
 
 ## Speed
 
@@ -158,7 +188,6 @@ Website speed was tested and graded a B (88).
 
 In initial testing some text would overflow in columns.  Certain icon layouts would also 'bunch' together
 and were corrected.  
-
 
 ## Deployment
 
@@ -197,6 +226,12 @@ a live website.  This was done through the following steps:
 * https://www.w3schools.com/   was used as a point of reference
 
 * Code Institute Course resources were used to revise/check back as a point of reference
+
+* Code for HTML and CSS was beautified using HTML and CSS Formatters.
+
+https://htmlformatter.com/
+
+https://www.cleancss.com/css-beautify/
  
 ## Content
 
