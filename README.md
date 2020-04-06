@@ -18,7 +18,7 @@ As students have various needs, having a structured, research backed approach to
 *With such an increasing focus on exams and academics in schools (starting as early as Nursery for many), children
 are missing out on those essential day to day skills to get them through life.  E.g, following a set of instructions to 
 make a piece of IKEA furnitiure or how to follow a recipe.  We teach them to complete daily activities by UNDERSTANDING what needs to be done, 
-PROBLEM SOLVING through a range of strategies and drawing upon experiences and THINKING skills.*  
+PROBLEM SOLVING through a range of strategies and drawing upon experiences in order to develop higher order THINKING skills.*  
 
 The company website is designed to give an insight into its aims, principles behind its approach and give some examples
 of daily lifeskills within each of the aforementioned areas in an accessible and inviting way.
@@ -171,14 +171,16 @@ file and folder re-naming).*
 
 https://github.com/samc85/Milestone-Project-1/blob/b40ed2d112f1c92f08632381a4cefe4e4216ad9b/style/csscommithistory
 
-Using GitHub, HTML, CSS and additional resources were
+Using GitHub, HTML, CSS and additional resources were updated via the below process:
 
 * Git add (ed)
 * Git commit (ed) -m
 * Git push (ed) to Repository
 
+##Live Page
+
 Within the repository, under the settings button GitHub Pages was accessed and published to created
-a live website.  
+a live website.  This was done by selecting Master Branch as source.
 
 ## Credits
 
