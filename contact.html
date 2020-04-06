@@ -61,32 +61,36 @@
 
 <form>
     <div class="form-group container-fluid">
-        <label for="exampleFormControlInput1">First and Last name</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg first and last name">
+        <label for="firstlastname">First and Last name *</label>
+        <input type="text" class="form-control" id="firstlastname" placeholder="e.g, first and last name" required>
         <br>
     </div>
 
     <div class="form-group container-fluid">
-        <label for="exampleFormControlInput2">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="eg name@example.com">
+        <label for="email">Email address *</label>
+        <input type="email" class="form-control" id="email" placeholder="e.g, name@example.com" required>
         <br>
     </div>
   
     <div class="form-group container-fluid">
-        <label for="exampleFormControlInput3">Phone Number</label>
-        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="eg 07972176590">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" class="form-control" id="phone" placeholder="e.g, 07972176590" required>
         <br>
     </div>
  
     <div class="form-group container-fluid">
         <label for="exampleFormControlTextarea1">Questions, comments... </label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="e.g, What is your timetable? How much per session?" rows="3"></textarea>
+        <p>* denotes required</p>
     </div>
+
+<!-- button:  submit button restores contact page back to fresh within the same tab -->
+
+    <a type="button" href="contact.html" class="btn btn-success" form="detailsform" value="Submit">Submit</a> 
+
 </form>
 
-<!-- button -->
 
-<button type="button" class="btn btn-success" form="detailsform" value="Submit">Submit</button> 
 
 <div class="dark"></div>
 
