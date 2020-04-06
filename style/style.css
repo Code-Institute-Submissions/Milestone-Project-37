@@ -1,5 +1,5 @@
 
-/* --------- navbar and logo      ------------- */
+                    /* --- navbar and logo   --- */
 
 ul .fourkids{
    font-family: 'Butterfly Kids', cursive;
@@ -18,7 +18,9 @@ ul .fourkids{
     margin-top: 9px;
     margin-bottom: 1%;
 }
-/*--- navbar from bootstrap ---*/
+
+                    /*--- navbar from bootstrap ---*/
+
 .navbar{  
     background: #b3cdd3;
     list-style: none;
@@ -36,8 +38,7 @@ li, a .fa-home{
     color:black;
 }
 
-
-/* ----------  Whole website aspects  ------------ */
+                    /* ---  Whole website aspects  --- */
 
 a{
      color:black;
@@ -86,7 +87,7 @@ a:hover .fa-home{
     word-spacing: 2pt;
 }
 
-/*-----------  fonts and titles ----------------- */
+                    /*---  fonts and titles --- */
 
 .learning{
     font-size: 24pt;
@@ -97,7 +98,7 @@ a:hover .fa-home{
     padding-top: 15px;
 }
 
-/* --------  About Approach and Awards styling fonts       -------------- */
+                    /* ---  About Approach and Awards styling fonts --- */
 
 .about, .approach, .awards{
     padding-top: 15px;
@@ -109,7 +110,7 @@ a:hover .fa-home{
     padding-left: 12px;
 }
 
-/* ---------  Images and logos (not Font Awesome)  ------------- */
+                    /* ---  Images and logos (not Font Awesome)  --- */
 
 .logo{
     background-image: url("images/logo.jpeg");
@@ -136,9 +137,8 @@ div .logo-skills{
     margin-top: 0;
 }
 
-/* --------  row and columns -------------- */
+                    /* --- row and columns from bootstrap--- */
 
-/*--- row from bootstrap ---*/
 .row{
     margin: auto;
     padding-top: 12px;
@@ -149,14 +149,13 @@ div .logo-skills{
     text-align: center;
 }
 
-/*--- col from bootstrap ---*/
 .col{
     font-size: 12pt;
     padding: 6px;
     margin: 3px;
 }
 
-/*------------- Understanding Problem Solving and Thinking column styling  --------------- */
+                    /*--- Understanding Problem Solving and Thinking column styling --- */
 
 .col-wedding{
     background-image: linear-gradient( 150deg, #e0da59, #fff);
@@ -176,7 +175,8 @@ div .logo-skills{
     font-size: 24pt;
 }
 
-/*--- container-fluid from bootstrap ---*/
+                    /*--- container-fluid from bootstrap ---*/
+
 .container-fluid{
     width: 100%;
     display: inline-block;
@@ -188,7 +188,7 @@ div .logo-skills{
     margin-top: 0;
 }
 
-/* --------   horizontal lines -------------- */
+                    /* ---  horizontal lines --- */
 
 .short{
     width: 67%;
@@ -207,7 +207,7 @@ div .logo-skills{
     padding-top: 6px;
 }
 
-/*----------- paragraph indents for content ----------------- */
+                    /*--- paragraph indents for content --- */
 
 .tab1{
     text-align: center;
@@ -235,7 +235,7 @@ div .logo-skills{
     font-size: 14pt;
 }
 
-/* --------- footer ------------- */
+                    /* --------- footer ------------- */
 
 .footer{
     font-size: 16pt;
@@ -267,8 +267,7 @@ div .logo-skills{
     border: 3pt solid red;
 }
 
-
-/* ---------  Explore with us sections menu (Thinking Problem Solving Understanding)---------- */
+                    /* --- Explore with us sections menu (Thinking Problem Solving Understanding). --- */
 
 .container-fluid, .explore{
     font-family: 'Sen', sans-serif;
@@ -296,7 +295,7 @@ div .logo-skills{
     word-spacing: 270pt;
 }
 
-/*---------- font awesome styling ---------*/
+                    /*--- font awesome styling ---*/
 
 .fa-book, .fa-map-signs{
     color: #e0da59;
@@ -390,17 +389,12 @@ div .logo-skills{
     padding-bottom: 12px;
 }
 
+                    /*--- form and buttons from bootstrap---*/
 
-
-/*---------- form and buttons ---------*/
-
-/*--- form from bootstrap ---*/
 form, .form-group .container-fluid{
     width: 67%;
     margin: 0 auto;
 }
-
-/*--- btn from bootstrap ---*/
 
 .button{
     width: 100%;
@@ -412,7 +406,6 @@ form, .form-group .container-fluid{
     border: 1pt solid black;
     background: linear-gradient(green, darkgreen);
 }
-
 
 .active{
   text-decoration: underline;

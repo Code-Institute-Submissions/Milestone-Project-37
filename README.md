@@ -134,6 +134,8 @@ Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pr
 
 https://www.browserstack.com/test-on-the-right-mobile-devices
 
+https://www.browserstack.com
+
 1. iphone 8
 2. iphone XR
 3. Google Pixel 3
@@ -144,7 +146,6 @@ All tests showed the website as it intended to look with little/to no variation 
 
 Overall the website was consistently responsive according to the above tests  and adhered to HTML and CSS standards set out by validation tools described above.  
 
-www.browserstack.com
 
 ## Speed
 
