@@ -161,6 +161,8 @@ and were corrected.
 
 
 ## Deployment
+
+### Repository
 All code was written on Github using a newly created repository.
 
 https://github.com/samc85/Milestone-Project-1 
@@ -171,16 +173,24 @@ file and folder re-naming).*
 
 https://github.com/samc85/Milestone-Project-1/blob/b40ed2d112f1c92f08632381a4cefe4e4216ad9b/style/csscommithistory
 
+
+### Updates
+
 Using GitHub, HTML, CSS and additional resources were updated via the below process:
 
 * Git add (ed)
 * Git commit (ed) -m
 * Git push (ed) to Repository
 
-##Live Page
+### Published Page
 
 Within the repository, under the settings button GitHub Pages was accessed and published to created
-a live website.  This was done by selecting Master Branch as source.
+a live website.  This was done through the following steps:
+
+* Access Settings on Repository page
+* Scroll down to GitHub Pages container
+* Select Master Branch as source
+* Publish Page and test live address
 
 ## Credits
 
